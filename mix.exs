@@ -4,7 +4,7 @@ defmodule QRCode.MixProject do
   def project do
     [
       app: :qrcode,
-      version: "0.1.4",
+      version: "0.1.5",
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -25,7 +25,7 @@ defmodule QRCode.MixProject do
     [
       maintainers: ["happy"],
       licenses: ["MIT"],
-      links: %{"Github" => "https://github.com/gialib/qrcode"}
+      links: %{"Github" => "https://github.com/dev800/qrcode"}
     ]
   end
 
